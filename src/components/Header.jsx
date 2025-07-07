@@ -95,7 +95,7 @@ export default function Header() {
             </ul>
           </div>
           <a class="btn btn-ghost text-xl font-extrabold text-gray-400">
-            KevDev Portafolio
+            JavDev Portafolio
           </a>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -135,7 +135,7 @@ export default function Header() {
     //     <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
     //       <div>
     //         <h1 className="font-extrabold text-2xl dark:text-white">
-    //           KevDev Portafolio
+    //           JavDev Portafolio
     //         </h1>
     //       </div>
     //       <div>

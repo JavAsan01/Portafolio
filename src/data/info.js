@@ -2,7 +2,7 @@ import project3 from "../assets/images/GSV Ventas.gif";
 import project1 from "../assets/images/Vitmap.png";
 import project2 from "../assets/images/certyget.gif";
 import project4 from "../assets/images/PCG_web.gif";
-import project5 from "../assets/images/portfolio.png";
+import project5 from "../assets/images/software_developer_illustration.png";
 import project6 from "../assets/images/tuLaptop.png";
 
 import { FiGithub, FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
@@ -73,7 +73,7 @@ export const Projects = [
     position: "Desarrollador Fullstack",
     url_img: project2,
     url_page: "",
-    url_github: "https://github.com/KevinCayo10/Certyget_Bakend",
+    url_github: "https://github.com/JavinCayo10/Certyget_Bakend",
     tools: ["Angular", "Nodejs", "MySQL"],
   },
   {
@@ -85,7 +85,7 @@ export const Projects = [
     url_img: project3,
 
     url_page: "",
-    url_github: "https://github.com/KevinCayo10/proyecto_ventas",
+    url_github: "https://github.com/JavinCayo10/proyecto_ventas",
     tools: ["Angular", "Bootstrap", "Nodejs", "MongoDB"],
   },
   {
@@ -96,7 +96,7 @@ export const Projects = [
     position: "Desarrollador Frontend ",
     url_img: project4,
     url_page: "https://almogascialtda.com/",
-    url_github: "https://github.com/KevinCayo10/bot_emp_bd/tree/develop",
+    url_github: "https://github.com/JavinCayo10/bot_emp_bd/tree/develop",
     tools: ["Codeigniter", "HTML", "CSS"],
   },
   {
@@ -107,8 +107,8 @@ export const Projects = [
     position: "Desarrollador Frontend",
 
     url_img: project5,
-    url_page: "https://portfolio-kevdev.vercel.app/",
-    url_github: "https://github.com/KevinCayo10/portfolio_kevdev",
+    url_page: "https://portfolio-Javdev.vercel.app/",
+    url_github: "https://github.com/JavinCayo10/portfolio_Javdev",
     tools: ["Reactjs", "Tailwindcss", "Framer Motion"],
   },
   {
@@ -120,7 +120,7 @@ export const Projects = [
 
     url_img: project6,
     url_page: "utatec.pro",
-    url_github: "https://github.com/KevinCayo10/UtaLapRec",
+    url_github: "https://github.com/JavinCayo10/UtaLapRec",
     tools: ["Reactjs", "Tailwindcss", "DaisyUI", "Flask", "Selenium", "Scrapy"],
   },
 ];
@@ -129,17 +129,17 @@ export const socialLinks = [
   {
     id: 1,
     icon: FiLinkedin,
-    url: "https://linkedin.com/in/kevincayo10",
+    url: "https://linkedin.com/in/Javincayo10",
   },
   {
     id: 2,
     icon: FiGithub,
-    url: "https://github.com/KevinCayo10",
+    url: "https://github.com/JavinCayo10",
   },
   {
     id: 3,
     icon: FiInstagram,
-    url: "https://www.instagram.com/kevincayo10/",
+    url: "https://www.instagram.com/Javincayo10/",
   },
   {
     id: 4,

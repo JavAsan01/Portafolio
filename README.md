@@ -36,11 +36,11 @@ Verificamos que existan las dependencias necesarias, estas se encuentran en el a
 
 1. Clonar el repositorio:
     ```bash
-    git clone https://github.com/TuUsuario/portfolio_kevdev.git
+    git clone https://github.com/TuUsuario/portfolio_Javdev.git
     ```
 2. Navega en el directorio del proyecto:
     ```bash
-    cd portfolio_kevdev
+    cd portfolio_Javdev
     ```
 3. Instala las dependencias:
     ```bash

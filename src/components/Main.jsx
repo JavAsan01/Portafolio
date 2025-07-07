@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Portfile from "../assets/images/perfil_8.png";
+import Portfile from "../assets/images/JavierAsanza.jpg";
 import { socialLinks } from "../data/info";
 import { FaDownload } from "react-icons/fa";
 import { FaMouse } from "react-icons/fa"; // Importa el icono de mouse
@@ -33,10 +33,10 @@ function Banner() {
             transition={{ duration: 1 }}
           >
             <h2 className="font-bold text-3xl dark:text-white sm:text-4xl">
-              Hola, Soy Kevin Cayo
+              Hola, Soy Javier Asanza
             </h2>
             <h2 className="font-bold text-2xl mt-1 gradiant-text sm:text-4xl">
-              Ingeniero en Software
+              Ingeniero en Sistemas de Información
             </h2>
             <p className="mt-4 text-gray-600">
               Desarrollador Fullstack enfocado en crear soluciones web
