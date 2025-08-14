@@ -36,7 +36,7 @@ function Banner() {
               Hola, Soy Javier Asanza
             </h2>
             <h2 className="font-bold text-2xl mt-1 gradiant-text sm:text-4xl">
-              Ingeniero en Sistemas de Información
+              Ing.en Sistemas & Máster en Ciberseguridad
             </h2>
             <p className="mt-4 text-gray-600">
               Desarrollador Fullstack enfocado en crear soluciones web

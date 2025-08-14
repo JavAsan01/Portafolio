@@ -88,14 +88,21 @@ function About() {
                 })}
               </ul>
             </div>
-            <div class="divider"></div>
+            <div className="divider"></div>
 
-            <h3 className="text-xl font-medium text-left ">Educación </h3>
-            <p className="text-left">
-              <strong>Universidad Técnica de Ambato</strong>
-            </p>
-            <p className="text-left">Mayo 2020 - Febrero 2025</p>
-            <p className="text-left">Ingeniería en Software</p>
+            <h3 className="text-xl font-medium text-left ">Formación Académica</h3>
+            <div className="text-left">
+              <p>
+                <strong>Máster en Ciberseguridad y Privacidad</strong><br />
+                UOC "Universitat Oberta de Catalunya" (España, online)<br />
+                2024 - 2025
+              </p>
+              <p className="mt-2">
+                <strong>Ingeniero en Sistemas de Información</strong><br />
+                Universidad Técnica de Cotopaxi<br />
+                2019 - 2024
+              </p>
+            </div>
           </div>
         </div>
       </div>

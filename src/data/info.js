@@ -203,44 +203,347 @@ export const Menu = [
 ];
 
 export const skills = [
+  // === LENGUAJES DE PROGRAMACIÓN ===
   {
     id: 1,
-    name: "Reactjs",
+    name: "JavaScript",
+    category: "languages"
   },
   {
     id: 2,
-    name: "Angular",
+    name: "TypeScript",
+    category: "languages"
   },
   {
     id: 3,
-    name: "Nodejs",
+    name: "Python",
+    category: "languages"
   },
   {
     id: 4,
-    name: "Express",
+    name: "Java",
+    category: "languages"
   },
   {
     id: 5,
-    name: "Socket.IO",
+    name: "PHP",
+    category: "languages"
   },
   {
     id: 6,
     name: "SQL",
+    category: "languages"
   },
+
+  // === FRAMEWORKS Y LIBRERÍAS FRONTEND ===
   {
     id: 7,
-    name: "Python",
+    name: "React.js",
+    category: "frontend"
   },
   {
     id: 8,
-    name: "Selenium WebDriver",
+    name: "Angular",
+    category: "frontend"
   },
   {
     id: 9,
-    name: "Git",
+    name: "Vue.js",
+    category: "frontend"
   },
+
+  // === FRAMEWORKS Y LIBRERÍAS BACKEND ===
   {
     id: 10,
-    name: "GCloud",
+    name: "Node.js",
+    category: "backend"
   },
+  {
+    id: 11,
+    name: "Express.js",
+    category: "backend"
+  },
+  {
+    id: 12,
+    name: "Django",
+    category: "backend"
+  },
+  {
+    id: 13,
+    name: "FastAPI",
+    category: "backend"
+  },
+  {
+    id: 14,
+    name: "Laravel",
+    category: "backend"
+  },
+  {
+    id: 15,
+    name: "Socket.IO",
+    category: "backend"
+  },
+
+  // === BASES DE DATOS ===
+  {
+    id: 16,
+    name: "PostgreSQL",
+    category: "database"
+  },
+  {
+    id: 17,
+    name: "MySQL",
+    category: "database"
+  },
+  {
+    id: 18,
+    name: "Redis",
+    category: "database"
+  },
+
+  // === CLOUD Y DEVOPS ===
+  {
+    id: 19,
+    name: "AWS",
+    category: "cloud"
+  },
+  {
+    id: 20,
+    name: "Google Cloud Platform",
+    category: "cloud"
+  },
+  {
+    id: 21,
+    name: "Docker",
+    category: "devops"
+  },
+  {
+    id: 22,
+    name: "Git",
+    category: "devops"
+  },
+
+  // === HERRAMIENTAS DE DESARROLLO ===
+  {
+    id: 23,
+    name: "Postman",
+    category: "tools"
+  },
+  {
+    id: 24,
+    name: "Selenium WebDriver",
+    category: "tools"
+  },
+  {
+    id: 25,
+    name: "RabbitMQ",
+    category: "tools"
+  },
+  {
+    id: 26,
+    name: "Celery",
+    category: "tools"
+  },
+
+  // === SISTEMAS OPERATIVOS ===
+  {
+    id: 27,
+    name: "Linux",
+    category: "os"
+  },
+  {
+    id: 28,
+    name: "Kali Linux",
+    category: "os"
+  },
+  {
+    id: 29,
+    name: "Parrot OS",
+    category: "os"
+  },
+
+  // === HERRAMIENTAS DE CIBERSEGURIDAD ===
+  {
+    id: 30,
+    name: "Nmap",
+    category: "cybersecurity"
+  },
+  {
+    id: 31,
+    name: "Metasploit",
+    category: "cybersecurity"
+  },
+  {
+    id: 32,
+    name: "Burp Suite",
+    category: "cybersecurity"
+  },
+  {
+    id: 33,
+    name: "Wireshark",
+    category: "cybersecurity"
+  },
+  {
+    id: 34,
+    name: "John the Ripper",
+    category: "cybersecurity"
+  },
+  {
+    id: 35,
+    name: "Hydra",
+    category: "cybersecurity"
+  },
+  {
+    id: 36,
+    name: "Gobuster",
+    category: "cybersecurity"
+  },
+  {
+    id: 37,
+    name: "SQLMap",
+    category: "cybersecurity"
+  },
+  {
+    id: 38,
+    name: "Aircrack-ng",
+    category: "cybersecurity"
+  },
+
+  // === COMPETENCIAS EN CIBERSEGURIDAD ===
+  {
+    id: 39,
+    name: "Ethical Hacking",
+    category: "security_skills"
+  },
+  {
+    id: 40,
+    name: "Análisis de Vulnerabilidades",
+    category: "security_skills"
+  },
+  {
+    id: 41,
+    name: "Pentesting Web y Redes",
+    category: "security_skills"
+  },
+  {
+    id: 42,
+    name: "Explotación de Servicios",
+    category: "security_skills"
+  },
+  {
+    id: 43,
+    name: "Respuesta ante Incidentes",
+    category: "security_skills"
+  },
+
+  // === GESTIÓN Y NORMATIVAS ===
+  {
+    id: 44,
+    name: "ISO/IEC 27001 (SGSI)",
+    category: "management"
+  },
+  {
+    id: 45,
+    name: "Políticas de Seguridad",
+    category: "management"
+  },
+  {
+    id: 46,
+    name: "Gestión de Riesgos",
+    category: "management"
+  },
+  {
+    id: 47,
+    name: "Control de Accesos",
+    category: "management"
+  },
+  {
+    id: 48,
+    name: "Continuidad de Negocio",
+    category: "management"
+  },
+  {
+    id: 49,
+    name: "Concienciación de Usuarios",
+    category: "management"
+  }
 ];
+
+// Función auxiliar para obtener skills por categoría
+export const getSkillsByCategory = (category) => {
+  return skills.filter(skill => skill.category === category);
+};
+
+// Función auxiliar para obtener todas las categorías
+export const getCategories = () => {
+  const categories = {
+    languages: "Lenguajes de Programación",
+    frontend: "Frontend",
+    backend: "Backend",
+    database: "Bases de Datos",
+    cloud: "Cloud Computing",
+    devops: "DevOps",
+    tools: "Herramientas de Desarrollo",
+    os: "Sistemas Operativos",
+    cybersecurity: "Herramientas de Ciberseguridad",
+    security_skills: "Competencias en Seguridad",
+    management: "Gestión y Normativas"
+  };
+  return categories;
+};
+
+// Habilidades técnicas categorizadas
+// export const technicalSkills = [
+//   {
+//     category: "Lenguajes de Programación",
+//     icons: ["python", "java", "javascript", "typescript", "php"],
+//     names: ["Python", "Java", "JavaScript", "TypeScript", "PHP"],
+//   },
+//   {
+//     category: "Desarrollo Frontend",
+//     icons: ["vue", "react"],
+//     names: ["Vue.js", "React.js"],
+//   },
+//   {
+//     category: "Desarrollo Backend & APIs",
+//     icons: ["nodejs", "django", "fastapi", "laravel"],
+//     names: ["Node.js", "Django", "FastAPI", "Laravel"],
+//   },
+//   {
+//     category: "Bases de Datos & Cache",
+//     icons: ["postgres", "mysql", "redis"],
+//     names: ["PostgreSQL", "MySQL", "Redis"],
+//   },
+//   {
+//     category: "Mensajería & Procesamiento de Tareas",
+//     icons: ["rabbitmq"],
+//     names: ["RabbitMQ", "Celery (Task Queue en Python)"],
+//   },
+//   {
+//     category: "Cloud & DevOps",
+//     icons: ["aws", "gcp", "docker"],
+//     names: ["AWS", "Google Cloud Platform", "Docker"],
+//   },
+//   {
+//     category: "Herramientas de Desarrollo",
+//     icons: ["git", "postman"],
+//     names: ["Git", "Postman"],
+//   },
+//   {
+//     category: "Ciberseguridad & Pentesting",
+//     icons: ["linux", "kali"],
+//     names: ["Kali Linux", "Parrot OS"],
+//     tools: [
+//       "Nmap", "Metasploit", "Burp Suite", "Wireshark", "John the Ripper", "Hydra", "Gobuster", "SQLMap", "Aircrack-ng"
+//     ],
+//     practices: [
+//       "Ethical Hacking", "Análisis de vulnerabilidades", "Pruebas de penetración en aplicaciones web y redes", "Explotación de servicios"
+//     ],
+//     standards: [
+//       "Implementación y mantenimiento de SGSI basados en ISO/IEC 27001"
+//     ],
+//     policies: [
+//       "Desarrollo y aplicación de políticas de seguridad", "análisis y gestión de riesgos", "control de accesos", "respuesta ante incidentes", "continuidad de negocio", "concienciación de usuarios"
+//     ]
+//   }
+// ];
