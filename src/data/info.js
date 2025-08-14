@@ -16,42 +16,68 @@ export const AboutMe = {
 export const Experiences = [
   {
     id: 1,
-    date: "Agosto 2024 - Febrero 2025",
-    location: "Ambato, Ecuador",
-    company: "Empresa Eléctrica Ambato - EEASA",
+    date: "2024 - Actualidad",
+    location: "Ecuador",
+    company: "ESTUDIO JURÍDICO ROMERO D’ & ASOCIADOS",
     level: "Junior",
-    position: "Ingeniero en Software",
+    position: "Desarrollador Junior de Software",
     functions:
-      "Desarrollo de la aplicación de seguimiento para el departamento de Auditoría Interna, optimizando la gestión y monitoreode recomendaciones. Con 5 módulos y 5 roles (Auditor Operativo, Auditor Jefe, Administrador, Responsable y Director)",
-    technology: ["Angular", "Spring boot", "Oracle"],
+      "Desarrollo y mantenimiento de soluciones de software para el sector jurídico, automatización de procesos internos y soporte técnico a usuarios.",
+    technology: ["JavaScript", "Node.js", "SQL"],
+    contact: {
+      phone: "02-5000160",
+      email: "dsalazar@romerodyasociados.com"
+    }
   },
   {
     id: 2,
-    date: "Marzo 2024 - Mayo 2024",
-    location: "Ambato, Ecuador",
-    company: "Empresarial Díaz & Bonilla S.A.",
-    level: "Trainer",
-    position: "Desarrollador de software",
+    date: "2024 (6 meses)",
+    location: "Ecuador",
+    company: "GRUPO-VELÁSTEGUI S.A.S.",
+    level: "Prácticas",
+    position: "Ingeniero en Área de Sistemas",
     functions:
-      "Desarrollo de diversos sistemas para modernizar y mejorar los servicios de la empresa, con el objetivo de ofrecer unaexperiencia de alto valor a los clientes y cumplir con su misión.",
-    technology: ["CodeIgniter", "Python", "Selenium WebDriver"],
+      "Soporte y gestión de sistemas informáticos, implementación de mejoras y atención a incidencias técnicas.",
+    technology: ["Windows Server", "Redes", "Soporte Técnico"],
+    contact: {
+      phone: "+593 95 888 0278",
+      email: "dario.velastegui@grupovelastegui.com"
+    }
   },
   {
     id: 3,
-    date: "Junio 2023 - Noviembre 2023",
-    location: "Ambato, Ecuador",
-    company: "SpringCore",
-    level: "Junior",
-    position: "Desarrollador Fullstack",
+    date: "2023 (6 meses)",
+    location: "Ecuador",
+    company: "SISCOM Sistemas y Comunicaciones S.A.S.",
+    level: "Prácticas",
+    position: "Prácticas Pre-Profesionales",
     functions:
-      "Participé en el desarrollo de una aplicación móvil para localizar médicos cercanos, con el objetivo de facilitar el acceso a atenciónmédica y mejorar la calidad de vida de los usuarios.",
-    technology: [
-      "React Native",
-      "Node.js",
-      "Express.js",
-      "Socket.io",
-      "Firebase",
-    ],
+      "Apoyo en proyectos de telecomunicaciones, configuración de equipos y asistencia en tareas de soporte técnico.",
+    technology: ["Redes", "Soporte Técnico", "Telecomunicaciones"],
+    contact: {
+      phone: "0987949633",
+      email: "infor@siscom.ec"
+    }
+  },
+  {
+    id: 4,
+    date: "2024 - 2025",
+    location: "España (online)",
+    company: "UOC 'Universitat Oberta de Catalunya'",
+    level: "Posgrado",
+    position: "Máster en Ciberseguridad y Privacidad",
+    functions: "Formación de posgrado en ciberseguridad, privacidad y protección de datos.",
+    technology: ["Ciberseguridad", "Privacidad", "Protección de datos"]
+  },
+  {
+    id: 5,
+    date: "2019 - 2024",
+    location: "Ecuador",
+    company: "Universidad Técnica de Cotopaxi",
+    level: "Grado",
+    position: "Ingeniero en Sistemas de Información",
+    functions: "Formación universitaria en sistemas de información, desarrollo de software y gestión de proyectos.",
+    technology: ["Sistemas de Información", "Desarrollo de Software", "Gestión de Proyectos"]
   },
 ];
 
@@ -129,22 +155,22 @@ export const socialLinks = [
   {
     id: 1,
     icon: FiLinkedin,
-    url: "https://linkedin.com/in/Javincayo10",
+    url: "https://www.linkedin.com/in/carlos-asanza-8a7817209/",
   },
   {
     id: 2,
     icon: FiGithub,
-    url: "https://github.com/JavinCayo10",
+    url: "https://github.com/JavAsan01",
   },
   {
     id: 3,
     icon: FiInstagram,
-    url: "https://www.instagram.com/Javincayo10/",
+    url: "https://www.instagram.com/JavAsan01/",
   },
   {
     id: 4,
     icon: FiMail,
-    url: "mailto:kejoelct1002@gmail.com",
+    url: "mailto:javasan.dev@gmail.com",
   },
 ];
 
